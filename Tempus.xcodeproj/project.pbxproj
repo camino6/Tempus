@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0004623824B61E8E0090F10F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004623724B61E8E0090F10F /* ButtonView.swift */; };
+		0004623924B61E8E0090F10F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004623724B61E8E0090F10F /* ButtonView.swift */; };
+		000AF40424C4CAD5003A21CD /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000AF40324C4CAD5003A21CD /* Time.swift */; };
+		000AF40524C4CAD5003A21CD /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000AF40324C4CAD5003A21CD /* Time.swift */; };
+		008DAC2624B529B9008D4A19 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DAC2524B529B9008D4A19 /* Tests_iOS.swift */; };
+		008DAC3124B529B9008D4A19 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DAC3024B529B9008D4A19 /* Tests_macOS.swift */; };
+		008DAC3324B529B9008D4A19 /* TempusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DAC0A24B529B8008D4A19 /* TempusApp.swift */; };
+		008DAC3424B529B9008D4A19 /* TempusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DAC0A24B529B8008D4A19 /* TempusApp.swift */; };
+		008DAC3524B529B9008D4A19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DAC0B24B529B8008D4A19 /* ContentView.swift */; };
+		008DAC3624B529B9008D4A19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DAC0B24B529B8008D4A19 /* ContentView.swift */; };
+		008DAC3724B529B9008D4A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008DAC0C24B529B9008D4A19 /* Assets.xcassets */; };
+		008DAC3824B529B9008D4A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008DAC0C24B529B9008D4A19 /* Assets.xcassets */; };
+		008DAC4824B52DF9008D4A19 /* ButtonInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DAC4724B52DF9008D4A19 /* ButtonInput.swift */; };
+		008DAC4924B52DF9008D4A19 /* ButtonInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DAC4724B52DF9008D4A19 /* ButtonInput.swift */; };
+		00EFA09224D71C2800D17775 /* TimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EFA09124D71C2800D17775 /* TimeCalculator.swift */; };
+		00EFA09324D71C2800D17775 /* TimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EFA09124D71C2800D17775 /* TimeCalculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008DAC2224B529B9008D4A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008DAC0524B529B8008D4A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008DAC1024B529B9008D4A19;
+			remoteInfo = "Tempus (iOS)";
+		};
+		008DAC2D24B529B9008D4A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008DAC0524B529B8008D4A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008DAC1824B529B9008D4A19;
+			remoteInfo = "Tempus (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0004623724B61E8E0090F10F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		000AF40324C4CAD5003A21CD /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		008DAC0A24B529B8008D4A19 /* TempusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempusApp.swift; sourceTree = "<group>"; };
+		008DAC0B24B529B8008D4A19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		008DAC0C24B529B9008D4A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		008DAC1124B529B9008D4A19 /* Tempus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008DAC1424B529B9008D4A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008DAC1924B529B9008D4A19 /* Tempus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008DAC1B24B529B9008D4A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008DAC1C24B529B9008D4A19 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		008DAC2124B529B9008D4A19 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		008DAC2524B529B9008D4A19 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		008DAC2724B529B9008D4A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008DAC2C24B529B9008D4A19 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		008DAC3024B529B9008D4A19 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		008DAC3224B529B9008D4A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008DAC4724B52DF9008D4A19 /* ButtonInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInput.swift; sourceTree = "<group>"; };
+		00EFA09124D71C2800D17775 /* TimeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCalculator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008DAC0E24B529B9008D4A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DAC1624B529B9008D4A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DAC1E24B529B9008D4A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DAC2924B529B9008D4A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008DAC0424B529B8008D4A19 = {
+			isa = PBXGroup;
+			children = (
+				008DAC0924B529B8008D4A19 /* Shared */,
+				008DAC1324B529B9008D4A19 /* iOS */,
+				008DAC1A24B529B9008D4A19 /* macOS */,
+				008DAC2424B529B9008D4A19 /* Tests iOS */,
+				008DAC2F24B529B9008D4A19 /* Tests macOS */,
+				008DAC1224B529B9008D4A19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008DAC0924B529B8008D4A19 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				008DAC0C24B529B9008D4A19 /* Assets.xcassets */,
+				008DAC0A24B529B8008D4A19 /* TempusApp.swift */,
+				008DAC0B24B529B8008D4A19 /* ContentView.swift */,
+				0004623724B61E8E0090F10F /* ButtonView.swift */,
+				008DAC4724B52DF9008D4A19 /* ButtonInput.swift */,
+				000AF40324C4CAD5003A21CD /* Time.swift */,
+				00EFA09124D71C2800D17775 /* TimeCalculator.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		008DAC1224B529B9008D4A19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008DAC1124B529B9008D4A19 /* Tempus.app */,
+				008DAC1924B529B9008D4A19 /* Tempus.app */,
+				008DAC2124B529B9008D4A19 /* Tests iOS.xctest */,
+				008DAC2C24B529B9008D4A19 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008DAC1324B529B9008D4A19 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				008DAC1424B529B9008D4A19 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		008DAC1A24B529B9008D4A19 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				008DAC1B24B529B9008D4A19 /* Info.plist */,
+				008DAC1C24B529B9008D4A19 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		008DAC2424B529B9008D4A19 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				008DAC2524B529B9008D4A19 /* Tests_iOS.swift */,
+				008DAC2724B529B9008D4A19 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		008DAC2F24B529B9008D4A19 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				008DAC3024B529B9008D4A19 /* Tests_macOS.swift */,
+				008DAC3224B529B9008D4A19 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008DAC1024B529B9008D4A19 /* Tempus (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008DAC3B24B529B9008D4A19 /* Build configuration list for PBXNativeTarget "Tempus (iOS)" */;
+			buildPhases = (
+				008DAC0D24B529B9008D4A19 /* Sources */,
+				008DAC0E24B529B9008D4A19 /* Frameworks */,
+				008DAC0F24B529B9008D4A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tempus (iOS)";
+			productName = "Tempus (iOS)";
+			productReference = 008DAC1124B529B9008D4A19 /* Tempus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		008DAC1824B529B9008D4A19 /* Tempus (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008DAC3E24B529B9008D4A19 /* Build configuration list for PBXNativeTarget "Tempus (macOS)" */;
+			buildPhases = (
+				008DAC1524B529B9008D4A19 /* Sources */,
+				008DAC1624B529B9008D4A19 /* Frameworks */,
+				008DAC1724B529B9008D4A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tempus (macOS)";
+			productName = "Tempus (macOS)";
+			productReference = 008DAC1924B529B9008D4A19 /* Tempus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		008DAC2024B529B9008D4A19 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008DAC4124B529B9008D4A19 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				008DAC1D24B529B9008D4A19 /* Sources */,
+				008DAC1E24B529B9008D4A19 /* Frameworks */,
+				008DAC1F24B529B9008D4A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008DAC2324B529B9008D4A19 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 008DAC2124B529B9008D4A19 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		008DAC2B24B529B9008D4A19 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008DAC4424B529B9008D4A19 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				008DAC2824B529B9008D4A19 /* Sources */,
+				008DAC2924B529B9008D4A19 /* Frameworks */,
+				008DAC2A24B529B9008D4A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008DAC2E24B529B9008D4A19 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 008DAC2C24B529B9008D4A19 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008DAC0524B529B8008D4A19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					008DAC1024B529B9008D4A19 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					008DAC1824B529B9008D4A19 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					008DAC2024B529B9008D4A19 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 008DAC1024B529B9008D4A19;
+					};
+					008DAC2B24B529B9008D4A19 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 008DAC1824B529B9008D4A19;
+					};
+				};
+			};
+			buildConfigurationList = 008DAC0824B529B8008D4A19 /* Build configuration list for PBXProject "Tempus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008DAC0424B529B8008D4A19;
+			productRefGroup = 008DAC1224B529B9008D4A19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008DAC1024B529B9008D4A19 /* Tempus (iOS) */,
+				008DAC1824B529B9008D4A19 /* Tempus (macOS) */,
+				008DAC2024B529B9008D4A19 /* Tests iOS */,
+				008DAC2B24B529B9008D4A19 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008DAC0F24B529B9008D4A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008DAC3724B529B9008D4A19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DAC1724B529B9008D4A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008DAC3824B529B9008D4A19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DAC1F24B529B9008D4A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DAC2A24B529B9008D4A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008DAC0D24B529B9008D4A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008DAC4824B52DF9008D4A19 /* ButtonInput.swift in Sources */,
+				008DAC3524B529B9008D4A19 /* ContentView.swift in Sources */,
+				000AF40424C4CAD5003A21CD /* Time.swift in Sources */,
+				0004623824B61E8E0090F10F /* ButtonView.swift in Sources */,
+				00EFA09224D71C2800D17775 /* TimeCalculator.swift in Sources */,
+				008DAC3324B529B9008D4A19 /* TempusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DAC1524B529B9008D4A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008DAC4924B52DF9008D4A19 /* ButtonInput.swift in Sources */,
+				008DAC3624B529B9008D4A19 /* ContentView.swift in Sources */,
+				000AF40524C4CAD5003A21CD /* Time.swift in Sources */,
+				0004623924B61E8E0090F10F /* ButtonView.swift in Sources */,
+				00EFA09324D71C2800D17775 /* TimeCalculator.swift in Sources */,
+				008DAC3424B529B9008D4A19 /* TempusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DAC1D24B529B9008D4A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008DAC2624B529B9008D4A19 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008DAC2824B529B9008D4A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008DAC3124B529B9008D4A19 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008DAC2324B529B9008D4A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008DAC1024B529B9008D4A19 /* Tempus (iOS) */;
+			targetProxy = 008DAC2224B529B9008D4A19 /* PBXContainerItemProxy */;
+		};
+		008DAC2E24B529B9008D4A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008DAC1824B529B9008D4A19 /* Tempus (macOS) */;
+			targetProxy = 008DAC2D24B529B9008D4A19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		008DAC3924B529B9008D4A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		008DAC3A24B529B9008D4A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		008DAC3C24B529B9008D4A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XS2C53FR4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camino6.Tempus;
+				PRODUCT_NAME = Tempus;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		008DAC3D24B529B9008D4A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XS2C53FR4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camino6.Tempus;
+				PRODUCT_NAME = Tempus;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008DAC3F24B529B9008D4A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2XS2C53FR4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camino6.Tempus;
+				PRODUCT_NAME = Tempus;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		008DAC4024B529B9008D4A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2XS2C53FR4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camino6.Tempus;
+				PRODUCT_NAME = Tempus;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		008DAC4224B529B9008D4A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XS2C53FR4;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camino6.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tempus (iOS)";
+			};
+			name = Debug;
+		};
+		008DAC4324B529B9008D4A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XS2C53FR4;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camino6.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tempus (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008DAC4524B529B9008D4A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2XS2C53FR4;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camino6.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Tempus (macOS)";
+			};
+			name = Debug;
+		};
+		008DAC4624B529B9008D4A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2XS2C53FR4;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camino6.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Tempus (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008DAC0824B529B8008D4A19 /* Build configuration list for PBXProject "Tempus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008DAC3924B529B9008D4A19 /* Debug */,
+				008DAC3A24B529B9008D4A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008DAC3B24B529B9008D4A19 /* Build configuration list for PBXNativeTarget "Tempus (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008DAC3C24B529B9008D4A19 /* Debug */,
+				008DAC3D24B529B9008D4A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008DAC3E24B529B9008D4A19 /* Build configuration list for PBXNativeTarget "Tempus (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008DAC3F24B529B9008D4A19 /* Debug */,
+				008DAC4024B529B9008D4A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008DAC4124B529B9008D4A19 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008DAC4224B529B9008D4A19 /* Debug */,
+				008DAC4324B529B9008D4A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008DAC4424B529B9008D4A19 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008DAC4524B529B9008D4A19 /* Debug */,
+				008DAC4624B529B9008D4A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008DAC0524B529B8008D4A19 /* Project object */;
+}
